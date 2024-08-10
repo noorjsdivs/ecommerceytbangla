@@ -1,18 +1,17 @@
-import React from "react";
 import ReactDOM from "react-dom/client";
+import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 import App from "./App.tsx";
 import "./index.css";
-import Header from "./ui/Header.tsx";
-import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
-import Product from "./pages/Product.tsx";
-import Category from "./pages/Category.tsx";
-import Profile from "./pages/Profile.tsx";
-import Cart from "./pages/Cart.tsx";
-import Favorite from "./pages/Favorite.tsx";
-import Orders from "./pages/Orders.tsx";
-import Success from "./pages/Success.tsx";
 import Cancel from "./pages/Cancel.tsx";
+import Cart from "./pages/Cart.tsx";
+import Category from "./pages/Category.tsx";
+import Favorite from "./pages/Favorite.tsx";
 import NotFound from "./pages/NotFound.tsx";
+import Orders from "./pages/Orders.tsx";
+import Product from "./pages/Product.tsx";
+import Profile from "./pages/Profile.tsx";
+import Success from "./pages/Success.tsx";
+import Header from "./ui/Header.tsx";
 
 const RouterLayout = () => {
   return (
